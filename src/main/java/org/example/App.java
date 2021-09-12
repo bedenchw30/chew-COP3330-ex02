@@ -8,11 +8,9 @@ public class App {
        Scanner input = new Scanner(System.in);
        String x = input.nextLine();
 
-       int count = 0;
-       for(int i = 0; i < x.length(); i++ ){
-           if(x.charAt(i) != ' ')
-               count++;
-    }
-       System.out.println(x + " has " + count + " characters. ");
+
+
+
+       System.out.println(x + " has " + x.length() + " characters. ");
     }
 }
